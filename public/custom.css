@@ -1,4 +1,35 @@
 .sidenav {
-    right: 0;
-    left: inherit;
+  right: 0;
+  left: inherit;
+}
+
+.btn,
+.btn:hover,
+.btn:focus {
+  background-color: #0cd0fc;
+}
+
+input:not([type]),
+input[type="text"]:not(.browser-default),
+input[type="password"]:not(.browser-default),
+input[type="email"]:not(.browser-default),
+input[type="url"]:not(.browser-default),
+input[type="time"]:not(.browser-default),
+input[type="date"]:not(.browser-default),
+input[type="datetime"]:not(.browser-default),
+input[type="datetime-local"]:not(.browser-default),
+input[type="tel"]:not(.browser-default),
+input[type="number"]:not(.browser-default),
+input[type="search"]:not(.browser-default),
+textarea.materialize-textarea {
+  border-bottom: 1px solid #0cd0fc;
+}
+
+.sidenav li {
+  line-height: inherit;
+}
+
+ul:not(.browser-default),
+ul:not(.browser-default) > li {
+  list-style-type: inherit;
 }

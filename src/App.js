@@ -54,9 +54,15 @@ function App() {
   return (
     <div
       className="App"
-      style={{ display: "flex", flexWrap: "nowrap", position: "relative" }}
+      style={{
+        display: "flex",
+        flexWrap: "nowrap",
+        position: "relative",
+        width: "100%",
+        height: "100vh"
+      }}
     >
-      <Map center={[latitude, longitude]} zoom={6} width={1900} height={1080}>
+      <Map center={[latitude, longitude]} zoom={6}>
         {city && (
           <Marker
             anchor={[latitude, longitude]}
